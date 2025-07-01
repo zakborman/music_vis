@@ -113,13 +113,13 @@ def main_menu():
         choice = input("Enter 1, 2, 3, 4, or 5: ").strip()
 
         if choice == "1":
-            run_visualizer("mission_impossible.mp3", "MISSION: IMPOSSIBLE", (255, 0, 0))  # Red
+            run_visualizer("lib/mission_impossible.mp3", "MISSION: IMPOSSIBLE", (255, 0, 0))  # Red
         elif choice == "2":
-            run_visualizer("sw_imperial_march.mp3", "STAR WARS: IMPERIAL MARCH", (255, 215, 0))
+            run_visualizer("lib/sw_imperial_march.mp3", "STAR WARS: IMPERIAL MARCH", (255, 215, 0))
         elif choice == "3":
-            run_visualizer("sw_rey.mp3", "STAR WARS: REY'S THEME", (135, 206, 250))  # Light blue
+            run_visualizer("lib/sw_rey.mp3", "STAR WARS: REY'S THEME", (135, 206, 250))  # Light blue
         elif choice == "4":
-            run_visualizer("jurassic_park.mp3", "JURASSIC PARK", (255, 69, 0))  # Red-orange
+            run_visualizer("lib/jurassic_park.mp3", "JURASSIC PARK", (255, 69, 0))  # Red-orange
         elif choice == "5":
             print("Goodbye!")
             break
